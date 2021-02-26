@@ -9,9 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6083136975559669870}
+  - component: {fileID: 620294341}
   m_Layer: 0
   m_Name: SquareRed
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,6 +33,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &620294341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411208623131060258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d174005203a0b2d488c73da75ff066fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 0}
+  clone: {fileID: 0}
+  collisionTag: Player
+  smallSquare: {fileID: 5448207230722243125}
 --- !u!1 &3539604536918414297
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,12 +60,12 @@ GameObject:
   - component: {fileID: 4300825027569488400}
   - component: {fileID: 2389369665636305962}
   m_Layer: 0
-  m_Name: Square
+  m_Name: SmallSquareRed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4300825027569488400
 Transform:
   m_ObjectHideFlags: 0
@@ -122,9 +139,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4624584103950550686}
   - component: {fileID: 1817162547771056884}
+  - component: {fileID: 1881677794}
   m_Layer: 0
-  m_Name: SquareWall
-  m_TagString: Untagged
+  m_Name: SquareWallRed
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -192,3 +210,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1881677794
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5448207230722243125}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

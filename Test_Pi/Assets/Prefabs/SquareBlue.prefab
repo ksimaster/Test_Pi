@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2541251572857582944}
   - component: {fileID: 6056434791863704731}
+  - component: {fileID: 6327039603518364296}
   m_Layer: 0
-  m_Name: SquareWall
-  m_TagString: Untagged
+  m_Name: SquareWallBlue
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80,6 +81,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &6327039603518364296
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854487208760120633}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2073217811905796084
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,12 +113,12 @@ GameObject:
   - component: {fileID: 7908517587073161179}
   - component: {fileID: 6778410551984159006}
   m_Layer: 0
-  m_Name: Square
+  m_Name: SmallSquareBlue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7908517587073161179
 Transform:
   m_ObjectHideFlags: 0

@@ -350,16 +350,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5448207230722243125, guid: 6df6fd27d276dd84792093c022772216,
-        type: 3}
-      propertyPath: m_Name
-      value: SquareWallRed
-      objectReference: {fileID: 0}
-    - target: {fileID: 3539604536918414297, guid: 6df6fd27d276dd84792093c022772216,
-        type: 3}
-      propertyPath: m_Name
-      value: SmallSquareRed
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6df6fd27d276dd84792093c022772216, type: 3}
 --- !u!1001 &6101657784030181682
@@ -428,16 +418,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2560470651322499123, guid: 98638ac1955543b45a1709cdead78217,
-        type: 3}
-      propertyPath: m_Name
-      value: SquareWallYellow
-      objectReference: {fileID: 0}
-    - target: {fileID: 2806134724939694846, guid: 98638ac1955543b45a1709cdead78217,
-        type: 3}
-      propertyPath: m_Name
-      value: SmallSquareYellow
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98638ac1955543b45a1709cdead78217, type: 3}
